@@ -21,6 +21,7 @@ public class WeatherApiResponse {
         public void setTemp(double temp) { this.temp = temp; }
     }
 
+
     public List<Weather> getWeather() { return weather; }
     public void setWeather(List<Weather> weather) { this.weather = weather; }
 

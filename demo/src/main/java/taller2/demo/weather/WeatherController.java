@@ -14,6 +14,7 @@ public class WeatherController {
         this.weatherService = weatherService;
     }
 
+
     @GetMapping("/weather/{city}")
     public Mono<WeatherResponse> getWeather(@PathVariable String city) {
         return weatherService.getWeather(city);

@@ -11,6 +11,7 @@ public class WeatherResponse {
         this.description = description;
     }
 
+
     // Getters
     public String getCity() { return city; }
     public double getTemperature() { return temperature; }
